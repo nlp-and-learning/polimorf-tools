@@ -30,4 +30,20 @@ def split_to_pos():
         fdict[el].close()
 
 
-split_to_pos()
+# other forms infnitive verb
+def form_inf():
+    dic = dict()
+    with open('gen/inf.tab', 'r') as f:
+        while True:
+            line = f.readline()
+            if not line:
+                break
+            parts = line.strip().split('\t')
+            if parts[0]!=parts[1]:
+                dic[parts[0]] = parts[1]
+    li = list()
+    for el in dic.keys():
+        print(el, dic[el], sep=';')
+
+# split_to_pos()
+form_inf()
