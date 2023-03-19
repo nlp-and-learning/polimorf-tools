@@ -1237,10 +1237,10 @@ przesięgać;sięgać
 osięgać;sięgać
 dosięgać;sięgać
 posięgać;sięgać
-przysięgać;sięgać
+przysięgać;przysięgać
 naprzysięgać;przysięgać
 zaprzysięgać;przysięgać
-pozaprzysięgać;zaprzysięgać
+pozaprzysięgać;przysięgać
 odprzysięgać;przysięgać
 oprzysięgać;przysięgać
 poprzysięgać;przysięgać
@@ -3449,7 +3449,7 @@ wyciekać;ciekać
 rozciekać;ciekać
 ściekać;ciekać
 pościekać;ściekać
-wściekać;ściekać
+wściekać;wściekać
 nawściekać;wściekać
 zawściekać;wściekać
 powściekać;wściekać
