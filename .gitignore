@@ -1,5 +1,6 @@
 .idea/
-input/*
+polimorf/*.tab
+polimorf/*.gz
 gen/*.tab
 
 # Byte-compiled / optimized / DLL files

@@ -8,7 +8,7 @@ def split_to_pos():
     for i in range(0, len(sub_pos)):
         f = open('gen/'+sub_pos[i]+'.tab', 'w')
         fdict[sub_pos[i]] = f
-    file = open('input/polimorf-20180722.tab', 'r')
+    file = open('polimorf/polimorf-20180722.tab', 'r')
     while True:
         line = file.readline()
         if line.startswith('#</'):
